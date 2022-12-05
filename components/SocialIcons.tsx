@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdNorthEast } from 'react-icons/md'
 import styles from '../styles/mainheader.module.scss'
 
@@ -25,7 +25,7 @@ export function SocialIcons({ scrollFunction }: any) {
         </div>
       </div>
       <div className={styles.divSayHi}>
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=917815018515&text=Hi" className={styles.sayHi}>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=917815018515&text=Hi" rel="noreferrer" className={styles.sayHi}>
           Say Hi 👋
         </a>
       </div>
