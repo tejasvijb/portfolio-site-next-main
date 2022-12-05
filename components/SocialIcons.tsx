@@ -10,14 +10,14 @@ export function SocialIcons({ scrollFunction }: any) {
         <div className={styles.header__socialIcons}>
           <div>
             <FaGithub />
-            <a target="_blank" href="https://cutt.ly/f1CFeUp" rel="noopener noreferrer" className={styles.iconNames}>
+            <a target="_blank" href="https://cutt.ly/f1CFeUp" rel="noreferrer" className={styles.iconNames}>
               Github
             </a>
             <MdNorthEast />
           </div>
           <div>
             <FaLinkedin />
-            <a target="_blank" href="https://cutt.ly/Z1CDA4C" rel="noopener noreferrer" className={styles.iconNames}>
+            <a target="_blank" href="https://cutt.ly/Z1CDA4C" rel="noreferrer" className={styles.iconNames}>
               LinkedIn
             </a>
             <MdNorthEast />
