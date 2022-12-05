@@ -8,7 +8,7 @@ import PageHeader from 'components/pageheader'
 import { projects, ProjectType } from '../../utils/projectsMain'
 
 const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
-  const seoTitle = 'Projects | Sai Shanmukh'
+  const seoTitle = 'Projects | Tejasvi JB'
   const seoDesc = 'Here are some of the projects I have worked on'
 
   return (
@@ -18,9 +18,9 @@ const Projects = ({ projects }: { projects: ProjectType[] }): JSX.Element => {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://shanmukh.xyz/projects/`,
+          url: `https://tejasvijb.vercel.app/projects`,
           description: seoDesc,
-          site_name: 'Sai Shanmukh',
+          site_name: 'Tejasvi JB',
         }}
         twitter={{
           cardType: 'summary_large_image',

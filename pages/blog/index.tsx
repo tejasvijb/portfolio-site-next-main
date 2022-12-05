@@ -23,7 +23,7 @@ type BlogProps = {
 const Blog = ({ posts }: BlogProps): JSX.Element => {
   const [currentSearch, setCurrentSearch] = useState('')
 
-  const seoTitle = 'Blog | Sai Shanmukh'
+  const seoTitle = 'Blog | Tejasvi JB'
   const seoDesc = 'I write about WebDev, React, CSS, Typescript and more!'
   const filteredPosts = posts
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
@@ -44,9 +44,9 @@ const Blog = ({ posts }: BlogProps): JSX.Element => {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://shanmukh.xyz/blog/`,
+          url: `https://tejasvijb.vercel.app/blog`,
           description: seoDesc,
-          site_name: 'Sai Shanmukh',
+          site_name: 'Tejasvi JB',
         }}
         twitter={{
           cardType: 'summary_large_image',

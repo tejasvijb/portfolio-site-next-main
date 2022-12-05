@@ -26,7 +26,7 @@ export const projects: ProjectType[] = [
       '✨ SEO optimized',
     ],
     tagUrls: [imgPaths['Next.js'].path, imgPaths['Typescript'].path, imgPaths['Sass'].path],
-    links: ['https://github.com/0xHecker/portfolio-next-sass', 'https://beddit-lac.vercel.app/'],
+    links: ['https://github.com/tejasvijb/portfolio-site-next-main'],
   },
 
   {
