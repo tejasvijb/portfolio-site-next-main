@@ -30,10 +30,10 @@ const Home: NextPage = () => {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://shanmukh.xyz/`,
+          url: `https://tejasvijb.vercel.app/`,
           description: seoDesc,
           site_name: 'Home | Tejasvi JB',
-          images: [{ url: 'http://localhost:3000/api/og', width: 800, height: 400, alt: 'Sai Shanmukh | Full Stack Developer' }],
+          images: [{ url: 'http://localhost:3000/api/og', width: 800, height: 400, alt: 'Tejasvi JB | Full Stack Developer' }],
           type: 'website',
           locale: 'en_IN',
         }}
