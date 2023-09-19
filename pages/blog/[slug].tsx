@@ -77,7 +77,7 @@ const Post = ({ post, related }: PostProps): JSX.Element => {
       })
     : null
 
-  const seoTitle = `${post.title} | Sai Shanmukh`
+  const seoTitle = `${post.title} | Tejasvi JB`
   const seoDesc = `${post.summary}`
   const url = `https://tejasvijb.vercel.app/blog/${post.slug}`
 

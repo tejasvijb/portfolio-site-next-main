@@ -7,7 +7,7 @@ const config = {
 		type: "website",
 		locale: "en_US",
 		url: "https://tejasvijb.vercel.app/",
-		site_name: "Sai Shanmukh",
+		site_name: "Tejasvi JB",
 		images: [
 			{
 				url: "https://ibb.co/Nr8sDhC",
