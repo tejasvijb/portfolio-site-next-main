@@ -47,7 +47,7 @@ const MessageComponent = (props: any, ref: any) => {
     }
 
     const Params = {
-      to_name: 'Sai Shanmukh',
+      to_name: 'Tejasvi JB',
       from_name: name,
       from_mail: email,
       message,

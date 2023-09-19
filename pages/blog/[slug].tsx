@@ -79,7 +79,7 @@ const Post = ({ post, related }: PostProps): JSX.Element => {
 
   const seoTitle = `${post.title} | Sai Shanmukh`
   const seoDesc = `${post.summary}`
-  const url = `https://shanmukh.xyz/blog/${post.slug}`
+  const url = `https://tejasvijb.vercel.app/blog/${post.slug}`
 
   return (
     <Page>
@@ -94,19 +94,19 @@ const Post = ({ post, related }: PostProps): JSX.Element => {
           images: [
             {
               url: post.og
-                ? `https://shanmukh.xyz${post.og}`
+                ? `https://tejasvijb.vercel.app${post.og}`
                 : `https://image-og.msshanmukh.vercel.app/${encodeURIComponent(post.title)}?desc=${encodeURIComponent(
                     seoDesc,
                   )}&theme=dark.png`,
               alt: post.title,
             },
           ],
-          site_name: 'Sai Shanmukh',
+          site_name: 'Tejasvi JB',
           type: 'article',
           article: {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
-            authors: ['https://shanmukh.xyz'],
+            authors: ['https://tejasvijb.vercel.app'],
           },
         }}
         twitter={{
